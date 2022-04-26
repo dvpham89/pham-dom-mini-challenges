@@ -1,0 +1,49 @@
+.bulb {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+}
+
+.turn-on {
+  background-color: white;
+  color: black;
+}
+
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+
+.coin {
+  border-radius: 50%;
+}
+
+.penny {
+  height: 100px;
+  width: 100px;
+  background-color: chocolate;
+  border: 2px solid sienna;
+}
+
+.dime {
+  height: 75px;
+  width: 75px;
+  background-color: silver;
+  border: 2px solid gray;
+}
+
+.nickel {
+  height: 125px;
+  width: 125px;
+  background-color: silver;
+  border: 2px solid gray;
+}
+.quarter {
+  height: 150px;
+  width: 150px;
+  background-color: silver;
+  border: 2px solid gray;
+}

@@ -15,8 +15,28 @@
       <button class="vending chocolate">Chocolate Bar $4.00</button>
       <button class="vending gummies">Fruit Gummies $6.00</button>
     </section>
-    <section class="make-money"></section>
-    <section class="light-bulb"></section>
+    <section class="make-money">
+      <form class="money-form">
+        <label for="howMany">How many?</label>
+        <input type="number" name="howMany" id="howMany" />
+        <label for="whichCoin">Which coin?</label>
+        <select name="whichCoin" id="whichCoin">
+          <option value="penny">Penny</option>
+          <option value="nickel">Nickel</option>
+          <option value="dime">Dime</option>
+          <option value="quarter">Quarter</option>
+        </select>
+        <button class="money-button">Make Money!</button>
+      </form>
+      <div class="coin-container"></div>
+    </section>
+    <section class="light-bulb">
+      <div class="bulb">Light Bulb</div>
+      <button class="on">On</button>
+      <button class="off">Off</button>
+      <button class="toggle">Toggle</button>
+      <button class="end">End</button>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
